@@ -2581,8 +2581,8 @@ Napi::Object Init(Napi::Env env, Napi::Object exports) {
           "OP_REC_SEQ_FRIDAY", Napi::Number::New(env, CEC_OP_REC_SEQ_FRIDAY),
           napi_enumerable),
       Napi::PropertyDescriptor::Value(
-          "OP_REC_SEQ_SATERDAY",
-          Napi::Number::New(env, CEC_OP_REC_SEQ_SATERDAY), napi_enumerable),
+          "OP_REC_SEQ_SATURDAY",
+          Napi::Number::New(env, CEC_OP_REC_SEQ_SATURDAY), napi_enumerable),
       Napi::PropertyDescriptor::Value(
           "OP_REC_SEQ_ONCE_ONLY",
           Napi::Number::New(env, CEC_OP_REC_SEQ_ONCE_ONLY), napi_enumerable),
